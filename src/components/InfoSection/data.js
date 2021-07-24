@@ -4,8 +4,8 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'About Me',
-    headline: 'headline',
-    description: 'description',
+    headline: 'Talking About Myself',
+    description: 'Describe what I would say about myself here and I need more words to test this',
     buttonLabel: 'button',
     imgStart: false,
     img: require('../../images/svg-1.svg').default,
@@ -18,13 +18,13 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-    id: 'about',
+    id: 'skills',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     topLine: 'About Me',
-    headline: 'headline',
-    description: 'description',
+    headline: 'Talking About Myself',
+    description: 'Describe what I would say about myself here and I need more words to test this',
     buttonLabel: 'button',
     imgStart: true,
     img: require('../../images/svg-1.svg').default,

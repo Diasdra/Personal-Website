@@ -3,7 +3,7 @@ import { Button } from '../ButtonElement'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
      TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, topline, lightText, headline, 
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, 
     darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
     return (
         <>
@@ -12,7 +12,7 @@ const InfoSection = ({lightBg, id, imgStart, topline, lightText, headline,
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper>
-                                <TopLine>{topline}TopLine</TopLine>
+                                <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
