@@ -1,8 +1,15 @@
-import React from 'react'
-import { HeroContainer, HeroBg, VideoBg } from './HeroElements'
+import React, {useState} from 'react'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1,
+    HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
+import {Button} from '../ButtonElement'
 import Video from '../../videos/video.mp4'
 
 const HeroSection = () => {
+    const [hover, setHover] = useState(false);
+
+    const onHover = () => {
+        setHover(!hover)
+    }
     return (
         <HeroContainer>
             <HeroBg>
@@ -14,7 +21,10 @@ const HeroSection = () => {
                     Welcome to my Website
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup">
+                    <Button to="signup" onMouseEnter={onHover}
+                     onMouseLeave={onHover}
+                     primary='true'
+                     dark='true'> 
                         Visit my Github {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
