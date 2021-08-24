@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const CardContainer = styled.div`
-    height:800px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@ export const CardWrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 16px;
-    padding: 0 50px;
+    padding: 0 24px;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
@@ -63,7 +63,7 @@ export const CardIcon = styled.img`
 export const CardH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
-    margin-bottom: 64px;
+    margin-bottom: 36px;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
