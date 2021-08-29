@@ -1,19 +1,18 @@
 export const homeObjOne = {
     id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'About Me',
-    headline: 'Talking About Myself',
-    description: 'Describe what I would say about myself here and I need more words to test this',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: '',
+    headline: 'About Me',
+    description: "I'm a aspiring fullstack programmer with an interest in DevOps. ",
     buttonLabel: 'button',
-    imgStart: false,
+    imgStart: true,
     img: require('../../images/svg-1.svg').default,
     alt: 'name of picture',
-    dark: true,
-    primary: true,
-    darkText: false,
-
+    dark: false,
+    primary: false,
+    darkText: true,
     //find pictures on Undraw
 }
 
@@ -26,7 +25,7 @@ export const homeObjTwo = {
     headline: 'Talking About Myself',
     description: 'Describe what I would say about myself here and I need more words to test this',
     buttonLabel: 'button',
-    imgStart: true,
+    imgStart: false,
     img: require('../../images/svg-1.svg').default,
     alt: 'name of picture',
     dark: false,

@@ -21,7 +21,9 @@ const HeroSection = () => {
                     Welcome to my Website
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover}
+                    <Button onClick={() => {
+                        window.open('https://github.com/Diasdra', '_blank')}}
+                     onMouseEnter={onHover}
                      onMouseLeave={onHover}
                      primary='true'
                      dark='true'> 
