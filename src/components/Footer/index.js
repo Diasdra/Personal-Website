@@ -19,9 +19,10 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights>jw © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                                <FaFacebook />
-                                <FaLinkedin />
+                            <SocialIconLink href="https://www.linkedin.com/in/jennie-jh-wu/" target="_blank" aria-label="LinkedIn">
+                                <FaLinkedin/>
+                            </SocialIconLink>
+                            <SocialIconLink href="https://www.github.com/Diasdra/" target="_blank" aria-label="Github">
                                 <FaGithub />
                             </SocialIconLink>
                         </SocialIcons>
