@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: '',
     headline: 'About Me',
-    description: "I'm a aspiring fullstack programmer with an interest in DevOps. ",
+    description: "I'm a aspiring fullstack programmer with an interest in DevOps. I am experienced with Python and JavaScript. I am also refining my React and C++ skills.",
     buttonLabel: 'button',
     imgStart: true,
     img: require('../../images/svg-1.svg').default,

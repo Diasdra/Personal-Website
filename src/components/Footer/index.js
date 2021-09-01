@@ -12,16 +12,6 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrap>
-                {/* <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> About Us</FooterLinkTitle>
-                            <FooterLink to='/signin'>Links</FooterLink>
-                            <FooterLink to='/signin'>Links</FooterLink>
-                            <FooterLink to='/signin'>Links</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                </FooterLinksContainer> */}
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
