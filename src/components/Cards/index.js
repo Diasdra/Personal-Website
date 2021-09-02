@@ -1,5 +1,6 @@
 import React from 'react'
 import Icon1 from '../../images/svg-1.svg'
+import ReactIcon from '../../images/react-1.svg'
 import InventoryIcon from '../../images/inventory.svg'
 import { CardContainer, CardH1, CardH2, CardWrapper, Card, CardIcon, CardP } from './CardElements'
 
@@ -9,7 +10,7 @@ const Cards = () => {
             <CardH1>My Projects</CardH1>
             <CardWrapper>
                 <Card>
-                    <CardIcon src={Icon1}/>
+                    <CardIcon src={ReactIcon}/>
                     <CardH2>This Website</CardH2>
                     <CardP>Written in JavaScipt with React and ReactScroll for Animations. This is my personal website that I used as a way to practise React.</CardP>
                 </Card>
