@@ -34,11 +34,11 @@ const Navbar = ({ toggle }) => {
                             <FaBars />
                         </MobileIcon>
                         <NavMenu>
-                            <NavItem>
-                                <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLinks>
+                        <   NavItem>
+                                <NavLinks to="projects" smooth={true} duration={500} spy={true} exact='true' offset={-79}>Projects</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="projects" smooth={true} duration={500} spy={true} exact='true' offset={-79}>Projects</NavLinks>
+                                <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-79}>About</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="skills" smooth={true} duration={500} spy={true} exact='true' offset={-79}>Skills</NavLinks>

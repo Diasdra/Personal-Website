@@ -6,7 +6,7 @@ export const CardContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #010606;
+    background: #f9f9f9;
     
     @media screen and (max-width: 768px) {
         height: 1100px;
@@ -37,7 +37,7 @@ export const CardWrapper = styled.div`
 `
 
 export const Card = styled.div`
-    background: #fff;
+    background: #8686df;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -62,7 +62,7 @@ export const CardIcon = styled.img`
 
 export const CardH1 = styled.h1`
     font-size: 2.5rem;
-    color: #fff;
+    color: #010606;
     margin-bottom: 36px;
 
     @media screen and (max-width: 480px) {
@@ -71,11 +71,13 @@ export const CardH1 = styled.h1`
 `
 
 export const CardH2 = styled.h2`
+    color: #fff;
     font-size: 1rem;
     margin-bottom: 10px;
 `
 
 export const CardP = styled.p`
+    color: #fff;
     font-size: 1rem;
     text-align: center;
 `
