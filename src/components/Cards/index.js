@@ -1,5 +1,6 @@
 import React from 'react'
 import Icon1 from '../../images/svg-1.svg'
+import InventoryIcon from '../../images/inventory.svg'
 import { CardContainer, CardH1, CardH2, CardWrapper, Card, CardIcon, CardP } from './CardElements'
 
 const Cards = () => {
@@ -13,7 +14,7 @@ const Cards = () => {
                     <CardP>Written in JavaScipt with React and ReactScroll for Animations. This is my personal website that I used as a way to practise React.</CardP>
                 </Card>
                 <Card>
-                    <CardIcon src={Icon1}/>
+                    <CardIcon src={InventoryIcon}/>
                     <CardH2>Trackify - An Inventory Solution</CardH2>
                     <CardP>A CRUD application made with Agile Methodology. Utilizes NodeJs and Prisma to manage a SQLite database with HTTP requests</CardP>
                 </Card>

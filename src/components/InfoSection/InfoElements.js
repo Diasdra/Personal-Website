@@ -17,6 +17,9 @@ export const InfoWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+  @media screen and  (max-width: 768px) {
+    height: 100vh;
+  }
 `
 export const InfoRow = styled.div`
   display: grid;
@@ -76,9 +79,15 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
+  @media screen and  (max-width: 768px) {
+    height: 50%;
+  }
 `;
 export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  @media screen and  (max-width: 768px) {
+    width: 50%;
+  }
 `;
