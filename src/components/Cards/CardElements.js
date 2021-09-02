@@ -36,6 +36,10 @@ export const CardWrapper = styled.div`
     }
 `
 
+export const CardLink = styled.a`
+    text-decoration: none;
+`
+
 export const Card = styled.div`
     background: #8686df;
     display: flex;
