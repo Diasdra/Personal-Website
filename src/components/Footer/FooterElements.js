@@ -41,6 +41,10 @@ export const SocialLogo = styled(Link)`
     margin-bottom: 16px;
     font-weight: bold;
 `
+export const Logo = styled.img`
+  width: 75px;
+  height: 75px;
+`
 
 export const WebsiteRights = styled.small`
     color: #fff;

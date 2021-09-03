@@ -1,8 +1,8 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
-import { FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa'
-import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, 
-    FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIconLink, SocialIcons} from './FooterElements'
+import {FaLinkedin, FaGithub } from 'react-icons/fa'
+import WhiteLogo from '../../images/logo-2.svg'
+import {FooterContainer, FooterWrap, Logo, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIconLink, SocialIcons} from './FooterElements'
  
 const Footer = () => {
     const toggleHome = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            jw
+                            <Logo src={WhiteLogo}></Logo>
                         </SocialLogo>
                         <WebsiteRights>jw © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
