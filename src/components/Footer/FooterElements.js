@@ -45,6 +45,10 @@ export const Logo = styled.img`
   width: 75px;
   height: 75px;
 `
+export const LogoP = styled.p`
+    align-self: center;
+    color: #fff;
+`
 
 export const WebsiteRights = styled.small`
     color: #fff;
@@ -56,8 +60,11 @@ export const SocialIcons = styled.div`
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+    display: block;
 `
-
+export const SocialP = styled.p`
+    color:#fff;
+`
 export const SocialIconLink = styled.a`
     color: #fff;
     justify-content: space-between;

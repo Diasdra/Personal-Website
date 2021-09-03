@@ -2,7 +2,7 @@ import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
 import {FaLinkedin, FaGithub } from 'react-icons/fa'
 import WhiteLogo from '../../images/logo-2.svg'
-import {FooterContainer, FooterWrap, Logo, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIconLink, SocialIcons} from './FooterElements'
+import {FooterContainer, FooterWrap, Logo, LogoP, SocialMedia, SocialMediaWrap, SocialLogo, SocialP, WebsiteRights, SocialIconLink, SocialIcons} from './FooterElements'
  
 const Footer = () => {
     const toggleHome = () => {
@@ -16,9 +16,11 @@ const Footer = () => {
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
                             <Logo src={WhiteLogo}></Logo>
+                            <LogoP>Jennie Wu</LogoP>
                         </SocialLogo>
                         <WebsiteRights>jw © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
+                            <SocialP>Contact Me:</SocialP>
                             <SocialIconLink href="https://www.linkedin.com/in/jennie-jh-wu/" target="_blank" aria-label="LinkedIn">
                                 <FaLinkedin/>
                             </SocialIconLink>

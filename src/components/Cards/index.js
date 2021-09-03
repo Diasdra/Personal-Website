@@ -14,7 +14,7 @@ const Cards = () => {
                     <Card>
                         <CardIcon src={ReactIcon}/>
                         <CardH2>This Website</CardH2>
-                        <CardP>Written in JavaScipt with React and ReactScroll for Animations. This is my personal website that I used as a way to practise React.</CardP>
+                        <CardP>Written in JavaScipt with React and ReactScroll for animations. This is my personal website that I used as a way to practise React.</CardP>
                     </Card>
                 </CardLink>
                 <CardLink href="https://github.com/Diasdra/Trackify" target='_blank'>
@@ -28,7 +28,7 @@ const Cards = () => {
                     <Card>
                         <CardIcon src={CatHorse}/>
                         <CardH2>Work'in Title</CardH2>
-                        <CardP>Can you capture the birds and find your way home in time? A Maze game built with Python and PyGame. </CardP>
+                        <CardP>Can you capture the birds and find your way home in time? A maze game built with Python and PyGame. </CardP>
                     </Card>
                 </CardLink>
             </CardWrapper>
