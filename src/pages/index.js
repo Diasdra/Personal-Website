@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar/';
 import Cards from '../components/Cards';
 import Footer from '../components/Footer';
+import SkillSection from '../components/SkillSection'
 
 
 const Home = () => {
@@ -22,7 +23,7 @@ const Home = () => {
             <HeroSection />
             <Cards />
             <InfoSection {...homeObjOne}/>
-            <InfoSection {...homeObjTwo}/>
+            <SkillSection />
             <Footer />
         </>
     );
