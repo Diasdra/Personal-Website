@@ -4,7 +4,7 @@ import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
      TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, 
-    darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
+    darkText, description, display, img, alt, primary, dark, dark2}) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -19,7 +19,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline,
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt}/>
+                                <Img src={img} alt={alt} display={display}/>
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

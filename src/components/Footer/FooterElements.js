@@ -10,12 +10,12 @@ export const FooterWrap = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1100px;
+    //max-width: 1100px;
     margin: 0 auto;
 `
 
 export const SocialMedia = styled.section`
-    max-width: 1000px;
+    //max-width: 1000px;
     width: 100%;
 `
 
@@ -64,6 +64,11 @@ export const SocialIcons = styled.div`
 `
 export const SocialP = styled.p`
     color:#fff;
+`
+export const EmailP = styled.p`
+    color:#fff;
+    text-decoration: none;
+    font-size: .5rem;
 `
 export const SocialIconLink = styled.a`
     color: #fff;

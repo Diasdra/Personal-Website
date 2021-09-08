@@ -1,3 +1,5 @@
+import { FaBorderNone } from 'react-icons/fa'
+
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -9,7 +11,8 @@ export const homeObjOne = {
     buttonLabel: 'button',
     imgStart: true,
     img: require('../../images/svg-1.svg').default,
-    alt: 'name of picture',
+    display: 'span',
+    alt: 'Picture of Jennie Wu',
     dark: true,
     primary: true,
     darkText: false,
@@ -27,6 +30,7 @@ export const homeObjTwo = {
     buttonLabel: 'button',
     imgStart: false,
     img: require('../../images/svg-1.svg').default,
+    display: 'none',
     alt: 'name of picture',
     dark: false,
     primary: false,
